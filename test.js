@@ -14,4 +14,6 @@ assertEqual(power(5, 0), 1, '5 в степени 0 = 1');
 assertEqual(factorial(5), 120, 'Факториал 5 = 120');
 assertEqual(factorial(0), 1, 'Факториал 0 = 1');
 
+assertEqual(power(2, 2), 5, 'Ошибка специально');
+
 console.log("✅ Все тесты прошли успешно!");
